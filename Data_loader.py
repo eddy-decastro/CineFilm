@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 import concurrent.futures 
 
 # --- 1. CONFIGURATION ---
-TMDB_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMWMwMmZhOTkwNjQwMDhlMzg0ZWM0MTcxODEzZjc5NiIsIm5iZiI6MTc3MjQ3NzA5My4zNjA5OTk4LCJzdWIiOiI2OWE1ZGFhNWNmMWUwNzZlZDVjNGMwYTgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.D3MM42AYCuhGlKkV_8vHpkIhbFBDTKUl9HltQX7B5Cs" # Pense à remettre ta clé !
+TMDB_API_KEY = ""
 BASE_URL = "https://api.themoviedb.org/3"   
 HEADERS = {
     "accept": "application/json",
